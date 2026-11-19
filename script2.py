@@ -2,7 +2,7 @@ from pathlib import Path
 import zipfile
 
 # Pasta onde estão os arquivos .zip baixados
-SOURCE_DIR = Path("./page23").resolve()
+SOURCE_DIR = Path("./page25").resolve()
 
 # Pasta raiz onde este script está salvo
 DEST_DIR = Path(__file__).resolve().parent

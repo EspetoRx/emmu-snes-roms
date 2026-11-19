@@ -3,8 +3,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 from playwright.async_api import async_playwright
 
-START_URL = "https://www.romsgames.net/roms/super-nintendo/?page=23&sort=popularity"
-DOWNLOAD_DIR = Path("./page23").resolve()
+START_URL = "https://www.romsgames.net/roms/super-nintendo/?page=25&sort=popularity"
+DOWNLOAD_DIR = Path("./page25").resolve()
 
 # Ajuste conforme sua conexão e tolerância do site (ex.: 3 a 5 abas simultâneas)
 MAX_CONCURRENT_DOWNLOADS = 8
